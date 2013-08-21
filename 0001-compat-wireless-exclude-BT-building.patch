@@ -1,0 +1,28 @@
+From de5978121efa8fb4a25d9cc3cdcefde3fe1306ef Mon Sep 17 00:00:00 2001
+From: Moosa <moosab@ti.com>
+Date: Thu, 3 May 2012 11:17:02 +0300
+Subject: [PATCH] compat-wireless: exclude BT building
+
+* Exclude building Bluetooth components
+
+Signed-off-by: Moosa Baransi <moosab@ti.com>
+---
+ Makefile |    2 --
+ 1 files changed, 0 insertions(+), 2 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index a020661..ac75fb0 100644
+--- a/Makefile
++++ b/Makefile
+@@ -37,8 +37,6 @@ endif
+ 
+ endif
+ 
+-obj-$(CONFIG_COMPAT_BLUETOOTH) += net/bluetooth/
+-obj-$(CONFIG_COMPAT_BLUETOOTH_MODULES) += drivers/bluetooth/
+ 
+ else
+ 
+-- 
+1.7.1
+
