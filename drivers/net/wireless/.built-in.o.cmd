@@ -1,0 +1,1 @@
+cmd_/home/rszuminski/Development/LSR/compat-wireless/drivers/net/wireless/built-in.o :=  arm-eabi-ld -EL    -r -o /home/rszuminski/Development/LSR/compat-wireless/drivers/net/wireless/built-in.o /home/rszuminski/Development/LSR/compat-wireless/drivers/net/wireless/wl12xx/built-in.o 

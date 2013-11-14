@@ -1,0 +1,1 @@
+cmd_/home/rszuminski/Development/LSR/compat-wireless/drivers/net/wireless/wl12xx/wl12xx_spi.o := arm-eabi-ld -EL    -r -o /home/rszuminski/Development/LSR/compat-wireless/drivers/net/wireless/wl12xx/wl12xx_spi.o /home/rszuminski/Development/LSR/compat-wireless/drivers/net/wireless/wl12xx/spi.o 
